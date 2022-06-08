@@ -49,5 +49,16 @@
                 }
             }
         }
-    } 
+    }
+
+    @media (max-width: 850px){
+        aside {
+            flex: 0;
+            display: none;
+
+            > img {
+                display: none;
+            }
+        }
+    }
 }
