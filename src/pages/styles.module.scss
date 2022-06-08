@@ -1,0 +1,53 @@
+.container {
+    display: flex;
+    align-items: stretch;
+    height: 100vh;
+
+    aside {
+        flex: 6;
+
+        background: #181717;
+
+        padding: 0px 120px 0px 140px;
+
+        img {
+            position: fixed;
+        }
+    }
+
+    main {
+        flex: 8;
+
+        padding: 0 32px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .mainContainer {
+            form {
+                
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+
+                div {
+                    position: relative;
+                    display: flex;
+                    flex-direction: column;
+
+                    span {
+                        color: red;
+                        margin-top: 1px;
+                    }
+
+                    div {
+                        position: absolute;
+                        top: 40px;
+                        left: 300px;
+                    }
+                }
+            }
+        }
+    } 
+}
