@@ -15,6 +15,7 @@ import styles from './styles.module.scss';
 import { useState } from 'react';
 
 export function Form(){
+    
     const [passwordVisible, setPasswordVisible] = useState(false);
     const [conFirmPasswordVisible, setConFirmPasswordVisible] = useState(false);
 
