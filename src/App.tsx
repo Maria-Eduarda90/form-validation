@@ -1,5 +1,5 @@
 import './global/global.scss';
-import { Form } from "./pages/Form";
+import { Form } from "./page/Form";
 
 export function App() {
   return (
